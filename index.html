@@ -394,56 +394,69 @@
 									<h4>1. Download Debian ISO:</h4>
 									- 	Go to the Debian official website (Debian.org) and download the latest stable release ISO file.<br>
 									- 	Choose the appropriate ISO file based on your system architecture (e.g., amd64 for 64-bit systems).<br>
+									<br>
 									<h4>2.	Create a Bootable USB Drive:</h4>
 									- 	As I have been doing that on Windows OS, I’ve always use Rufus to create a bootable USB drive.<br>
 									- 	Download and open Rufus from rufus.ie.<br>
 									-	Select your USB drive and the Debian ISO file.<br>
 									- 	Click Start and wait for the process to complete.<br>
+									<br>
 									<h4>3.	Boot from the USB Drive:</h4>
 									- 	Insert the bootable USB drive into your PC.<br>
 									- 	Restart your PC and enter the BIOS/UEFI setup by pressing a key (often F2, F12, DEL, or ESC – depends
 									of your computer brand) during startup.<br>
 									-	Change the boot order to boot from the USB drive first.<br>
 									-	Save the changes and exit the BIOS/UEFI setup.<br>
+									<br>
 									<h4>4.	Start the Debian Installer:</h4>
 									-	After booting from the USB drive, you’ll see the Debian Installer menu.<br>
 									-	Select Graphical install for an easy-to-use graphical installation process.<br>
+									<br>
 									<h4>5.	Select Language and Locale Settings:</h4>
 									-	Choose your preferred language.<br>
 									-	Select your location to set the time zone and system locale.<br>
 									-	Configure your keyboard layout.<br>
+									<br>
 									<h4>6.	Configure the Network:</h4>
 									-	If you have a wired connection, it should automatically detect and configure it.<br>
 									-	For wireless connections, select your network and enter the necessary credentials.<br>
+									<br>
 									<h4>7.	Set Up Users and Passwords:</h4>
 									-	Set a strong password for the root account (administrator privileges).<br>
 									-	Create a new user account for everyday use. Enter the full name, username, and password for this account.<br>
+									<br>
 									<h4>8.	Partition Disks:</h4>
 									-	Choose a partitioning method. For beginners, the Guided - use entire disk option is recommended.<br>
 									-	Select the disk to partition.<br>
 									-	Choose how to partition the disk (all files in one partition is the simplest option).<br>
 									-	Review and confirm the partitioning setup. Be aware that this will erase all data on the selected disk.<br>
+									<br>
 									<h4>9.	Install the Base System, this process may take a few minutes.</h4>
+								
 									<h4>10.	Configure the Package Manager:</h4>
 									-	Choose whether to scan another CD/DVD. If you downloaded additional packages, you can scan them now,
 										but typically you’ll select No.<br>
 									-	Configure the package manager by selecting a network mirror close to your location for downloading
 										software packages.<br>
 									-	Decide whether to participate in the package usage survey (optional).<br>
+									<br>
 									<h4>11.	Install Software and Choose Desktop Environment:</h4>
 									-	Select software to install. For a standard desktop environment, select Debian desktop environment and
 										your preferred desktop environment (e.g., GNOME, KDE, XFCE, etc.).<br>
 									-	You can also select additional utilities like SSH server or standard system utilities.<br>
+									<br>
 									<h4>12.	Install the GRUB Bootloader:</h4>
 									-	When prompted, choose to install the GRUB bootloader to the primary drive. This is necessary for booting
 										your system.<br>
 									-	Confirm the device for boot loader installation (usually the main disk).<br>
+									<br>
 									<h4>13.	Once the installation is complete, the installer will prompt you to remove the installation media and 
 										restart the system.</h4>
 									<h4>14.	First Boot and Post-Installation Steps:</h4>
 									-	Remove the USB drive and reboot your PC.<br>
 									-	Log in with the user account you created during the installation.<br>
 									-	Update the system to ensure all packages are up to date.<br>
+									<br>
 									<h4>15.	Update the system through terminal by writing: sudo apt update && sudo apt upgrade -y</h4> 
 									<h4>Conclusion</h4>
 									<p>
